@@ -44,7 +44,7 @@ const Tag = () => {
         <h1 className=' mt-[25px] text-2xl font-bold underline uppercase'>Search {tag} Gif</h1>
 
         {
-            loading ? (<Spinner/>):(<img src={gif} width="400" alt="gif" />)
+            loading ? (<Spinner/>):(<img src={gif} width="450" alt="gif" />)
         }
 
         <input

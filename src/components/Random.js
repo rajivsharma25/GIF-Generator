@@ -36,7 +36,7 @@ const Random = () => {
         <h1 className=' mt-[25px] text-2xl font-bold underline uppercase'>A Random Gif</h1>
 
         {
-            loading ? (<Spinner/>):(<img src={gif} width="400" alt="gif" />)
+            loading ? (<Spinner/>):(<img src={gif} width="450" alt="gif" />)
         }
         
         <button className='w-10/12 bg-white drop-shadow-md shadow-black text-lg py-2 rounded-lg mb-[25px]' 
