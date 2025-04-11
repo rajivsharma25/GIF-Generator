@@ -9,7 +9,7 @@ const Tag = () => {
 
     // const [gif, setGif] = useState('');
     // const [loading, setLoading] = useState(false);
-    const [tag, setTag] = useState('car');
+    const [tag, setTag] = useState('');
 
     // async function fetchData() {
     //     setLoading(true);
